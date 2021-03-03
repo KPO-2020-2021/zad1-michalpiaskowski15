@@ -41,7 +41,7 @@ int main() {
   
   if (Delta_2 > 0) {
 
-      Delta = sqrt( Delta_2 );
+      Delta = sqrt( Delta_2 );  /* przy kompilacji w C nalezy dolaczyc biblioteke (-lm), w C++ nie jest to konieczne*/
       X1 = (-TKw.b - Delta) / (2*TKw.a);
       X2 = (-TKw.b + Delta) / (2*TKw.a);
       Ilosc_Pierwiastkow = 2;      
