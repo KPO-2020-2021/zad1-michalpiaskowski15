@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
 extern const double PI;
 extern const double E;
-
 
 int main()
 {
